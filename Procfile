@@ -1,0 +1,1 @@
+pbot: bash start.sh
