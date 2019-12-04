@@ -176,7 +176,7 @@ def renew_logfile_execution():
 
 def get_log():
   schedule.every(2).hours.do(get_log_execution)
-  schedule.every().day.at("03:30").do(renew_logfile_execution)
+  schedule.every().day.at("00:00").do(renew_logfile_execution)
   """
   while True:
     schedule.run_pending()
