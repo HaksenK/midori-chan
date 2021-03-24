@@ -21,7 +21,7 @@ pytz==2019.1
 requests==2.21.0
 requests-oauthlib==1.2.0
 response==0.3.0
-rsa==4.0
+rsa==4.1
 schedule==0.6.0
 slackbot==0.5.3
 slacker==0.13.0
